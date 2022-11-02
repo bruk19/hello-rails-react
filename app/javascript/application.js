@@ -3,12 +3,6 @@ import "@hotwired/turbo-rails"
 import "./controllers"
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./Components/App";
 
-function App() {
-  return (<h1>Hello There!</h1>);
-}
-
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
-);
+ReactDOM.render(<App />, document.getElementById("root"));
