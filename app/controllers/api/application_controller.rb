@@ -1,2 +1,8 @@
-class Api::V1::ApplicationController < ActionController::API
+# frozen_string_literal: true
+
+module Api
+  module V1
+    class ApplicationController < ActionController::API
+    end
+  end
 end

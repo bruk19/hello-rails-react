@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getMessage } from "../Redux/Reducer";
+import { getMessage } from "../Redux/reducer";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 
